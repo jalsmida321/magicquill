@@ -17,3 +17,18 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+#how-it-works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#how-it-works.container {
+  text-align: center;
+}
+
+#how-it-works.grid {
+  justify-content: center;
+}
